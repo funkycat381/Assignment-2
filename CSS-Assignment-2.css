@@ -1,75 +1,85 @@
 #HTML-assignment2
 
-  /*
+/*
 vars and color
  */
- :root {
+#opener{
     /* define the color pallete */
     --primary-color: #364e7d;
     --secondary-color: #184E7D;
     --accent-color: #eccc74;
     --text-color: #F8F1FF;
     --second-accent: #241909;
-    max-width: 75vw 60vw;
-    margin: auto;
-    text-align: start;
 }
 
-
-
-body{
-  padding: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  background-color: #364e7d;
-  color: #F8F1FF;
-  line-height: 1.5;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    background-color: #F8F1FF;
+    color: #F8F1FF;
+    line-height: 1.5;
 }
 
+.lea-description{
+    font-size: large;
+}
 
+img{
+    padding: 1% !important
+}
 
-  .the-body{
-    padding: 4;
-  }
+h1 {
+    color: #eccc74;
+}
 
-  .navbar{
+.navbar {
     background-color: #eccc74;
-    color:#F8F1FF;
-  }
-  .navbar-item{
     color: #F8F1FF;
 }
-  
-  .container-fluid {
-    background-color: #184E7D;
-    padding: 2;
-  }
-  
-  .main-section {
-    margin: 10;
-  }
-  
-  h1{
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-    color: #eccc74;
-    padding-top: 2rem;
+
+.navbar-item {
+    color: #F8F1FF;
+}
+
+.container-fluid {
+    background-color: #364e7d;
+    padding: 1%;
+}
+
+.the-body {
+    max-width: 75vw 60vw;
+    margin: 0 auto;
+    text-align: start;
+    display: flex;
+    align-items: stretch-center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 2.5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2.5%;
+}
+
+.navbar-item{
+    color: #F8F1FF
   }
 
-  h2{
-    padding-top: 1rem;
-  }
-
-  h3{
-    padding-top: 1rem;
-  }
-
-  div.the-body>div:nth-of-type(odd) {
+div.the-body>div:nth-of-type(odd) {
     background: #364e7d;
-  }
+}
+
+div.the-body>div:nth-of-type(even) {
+    background: #184E7D;
+}
+
+.sub-section{
+    background:#1b568b;
+    padding: .5%;
+}
+
+.unit-box{
+    margin: 1%;
+}
 
 html {
     scroll-behavior: smooth;
-}
-
-p {
-    line-height: 1.3;
 }
